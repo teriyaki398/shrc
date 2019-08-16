@@ -7,6 +7,7 @@ zplug "plugins/git", from:oh-my-zsh   # git のエイリアス設定
 zplug "zsh-users/zsh-autosuggestions"
 zplug "mafredri/zsh-async", from:github
 zplug "b4b4r07/enhancd", use:init.sh  # enhancd
+ENHANCD_HOOK_AFTER_CD="ls -lG"
 
 # Simple Theme
 zplug "sindresorhus/pure", use:pure.zsh, from:github, as:theme
