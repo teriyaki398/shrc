@@ -1,17 +1,20 @@
-# zplug
+# zinit
 plugin manager for zsh
-https://github.com/zplug/zplug
+https://github.com/zdharma/zinit
 
 ### Installation
+#### Install bew
 ```
-$ curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-(brew is also usable)
 
-# enhancd
-smart cd
+#### Install zinit
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"
+```
 
-some filtering tool is required.
+#### Install peco (for enhancd)
+some search algorithm tool is required for enhancd
 '''
 $ brew install peco
 '''
